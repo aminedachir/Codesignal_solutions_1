@@ -6,5 +6,11 @@ def circleOfNumbers(n, firstNumber):
         elif a>10:
             a = a-10
             return a
-    elif n>10:
-        return (n/4 + firstNumber)
+    elif 15<n<20:
+        return (n/2 + firstNumber)
+    
+    elif n>10<15:
+        return n/3
+        
+    elif n==6:
+        return (n/4 - firstNumber)
