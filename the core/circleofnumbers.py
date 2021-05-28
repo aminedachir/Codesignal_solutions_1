@@ -4,4 +4,4 @@ def circleOfNumbers(n, firstNumber):
         if firstNumber<a:
             return (a+firstNumber)
         else:
-            return(firstNumber/a)
+            return(firstNumber-a)
