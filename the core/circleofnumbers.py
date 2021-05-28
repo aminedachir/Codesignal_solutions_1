@@ -3,3 +3,5 @@ def circleOfNumbers(n, firstNumber):
     for i in range (n):
         if firstNumber<a:
             return (a+firstNumber)
+        else:
+            return(firstNumber/a)
