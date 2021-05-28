@@ -1,6 +1,8 @@
 def maxMultiple(divisor, bound):
-    N = divisor
-    for i in range(bound):
-        if (N%divisor > 0):
+    N = bound
+    i = 0
+    while (i<bound):
+        if (N%divisor == 0):
             return N
-        N = N + 1
+        else:
+            N = N - 1
